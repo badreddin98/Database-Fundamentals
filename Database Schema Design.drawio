@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="sHC6npHZXaq_Ny8gJGEj">
+    <mxGraphModel dx="1194" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zwA149PUvauY0mWm4Iry-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="zwA149PUvauY0mWm4Iry-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-2" value="Book&lt;div&gt;&lt;ul&gt;&lt;li&gt;book Id (PK)&lt;/li&gt;&lt;li&gt;author id (FK)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;title&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="150" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-3" value="author&lt;div&gt;&lt;ul&gt;&lt;li&gt;author id(PK)&amp;nbsp;&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-4" value="customers&lt;div&gt;&lt;ul&gt;&lt;li&gt;id&lt;/li&gt;&lt;li&gt;Address&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zwA149PUvauY0mWm4Iry-5" target="zwA149PUvauY0mWm4Iry-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zwA149PUvauY0mWm4Iry-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zwA149PUvauY0mWm4Iry-5" value="transaction&lt;div&gt;&lt;ul&gt;&lt;li&gt;transaction id (PK)&lt;/li&gt;&lt;li&gt;customer id (FK)&lt;/li&gt;&lt;li&gt;amount&amp;nbsp;&lt;/li&gt;&lt;li&gt;date&lt;/li&gt;&lt;li&gt;book id&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="170" width="150" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
